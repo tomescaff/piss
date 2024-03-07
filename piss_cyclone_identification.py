@@ -183,12 +183,12 @@ def contour_search(da, point):
     kt  , = np.where(np.abs((dates - datep)) == np.min(np.abs((dates - datep))))[0]
 
     # choose date
-    dak = da.isel({'time': it}).squeeze()
+    # TODO: dak = da.isel({'time': it}).squeeze()
 
     # process each contour
 
 
-def get_variables(args: list[str]):
+def get_variables(args: "list[str]"):
     '''
     info: retrieve variables from input arguments.
     parameters:
