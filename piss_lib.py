@@ -235,7 +235,7 @@ def contour_search(da, point):
     kt  , = np.where(np.abs((dates - datep)) == np.min(np.abs((dates - datep))))[0]
 
     # choose date
-    dak = da.isel({'time': it}).squeeze()
+    # TODO: dak = da.isel({'time': it}).squeeze()
 
     # process each contour
 
