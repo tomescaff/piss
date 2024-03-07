@@ -192,7 +192,7 @@ def contour_search(da, point):
     #     None
 
 
-def get_variables(args: list[str]):
+def get_variables(args: "list[str]"):
     '''
     info: retrieve variables from input arguments.
     parameters:
